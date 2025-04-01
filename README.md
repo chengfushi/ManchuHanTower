@@ -78,9 +78,9 @@ CREATE TABLE `order` (
 ### 数据库配置文件(mysql.properties)
 ```properties
 driverClassName=com.mysql.cj.jdbc.Driver
-url=jdbc:mysql://127.0.0.1:3306/mhl?serverTimezone=PRC
+url=jdbc:mysql://127.0.0.1:3306/"YourDataBase"?serverTimezone=PRC
 username=root
-password=5200000scf
+password=password
 initialSize=10
 minIdle=1
 maxActive=10
